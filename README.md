@@ -22,9 +22,23 @@ Developed by:
 RegisterNumber:  
 */
 ```
+#program to find the square root for the given number(newton's method) using function.
+
+#Developed by:vijayaraj.v
+#RegisterNumber:22001903
+
+n=int(input())
+
+x=1
+
+for i in range(100):
+    
+    x=0.5*(x+n/x)
+
+print("Square root of the number:",x)
 
 ## Output:
-![gcd of two number](gcd.png)
+![gcd of two number](./Screenshot%20from%202023-01-04%2010-43-46.png)
 
 
 ## Result:
